@@ -4,7 +4,7 @@ using API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Load orders and products from the solution-level inputs/ folder as required by the challenge
+// Load orders and products from the solution-level inputs/ folder
 var inputsPath = Path.Combine(builder.Environment.ContentRootPath, "..", "inputs");
 
 var jsonOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
