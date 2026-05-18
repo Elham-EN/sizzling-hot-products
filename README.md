@@ -19,7 +19,7 @@ ElhamSizzlingHotProdoucts/
 │   ├── Services/
 │   └── Program.cs
 ├── API.Tests/
-└── Client/               # React frontend (in progress)
+└── Client/               # React frontend (Vite + Tailwind CSS v4)
 ```
 
 ## How to Run
